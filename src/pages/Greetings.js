@@ -11,7 +11,7 @@ function Greeting() {
   }, [dispatch]);
   return (
     <div>
-      <h1 className='Greeting'>{greetings}</h1>
+      <h1 className="Greeting">{greetings}</h1>
     </div>
   );
 }
