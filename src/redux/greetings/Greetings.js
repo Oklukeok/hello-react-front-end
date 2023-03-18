@@ -13,6 +13,7 @@ export const getGreetings = createAsyncThunk(
     const greetings = res.data.greeting;
     return greetings;
   }),
+
 );
 
 const greetingsSlice = createSlice({
